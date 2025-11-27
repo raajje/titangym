@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titan GYM | Transform Your Body</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="images/logo-m.svg" alt="Titan GYM" class="logo-img">
+                <span>Titan <span class="highlight">GYM</span></span>
+            </a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="index.html#programs" class="nav-link">Programs</a></li>
+                <li class="nav-item"><a href="trainers.html" class="nav-link">Trainers</a></li>
+                <li class="nav-item"><a href="membership.html" class="nav-link">Membership</a></li>
+                <li class="nav-item"><a href="timetable.html" class="nav-link">Timetable</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero-slider">
+        <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/slider1.jpg');">
+            <div class="hero-content hidden-element">
+                <h1 class="glitch-text" data-text="FORGE YOUR LEGACY">FORGE YOUR LEGACY</h1>
+                <p>High-intensity training plans designed for rapid weight loss and muscle growth.</p>
+                <a href="#programs" class="btn btn-primary">Start Your Journey</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/slider2.jpg');">
+            <div class="hero-content hidden-element">
+                <h1 class="glitch-text" data-text="BREAK THE LIMITS">BREAK THE LIMITS</h1>
+                <p>Push past your boundaries with our elite cardio and endurance equipment.</p>
+                <a href="membership.html" class="btn btn-primary">Join the Elite</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/slider3.jpg');">
+            <div class="hero-content hidden-element">
+                <h1 class="glitch-text" data-text="UNLEASH YOUR POWER">UNLEASH YOUR POWER</h1>
+                <p>Transform your body with proven training methods and expert guidance.</p>
+                <a href="trainers.html" class="btn btn-primary">Meet Our Trainers</a>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <div class="prev-slide"><i class="fas fa-chevron-left"></i></div>
+            <div class="next-slide"><i class="fas fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <section id="programs" class="programs-section">
+        <div class="container">
+            <div class="section-header hidden-element">
+                <h2 class="section-title">ELITE PROGRAMS</h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Choose the path that fits your goals.</p>
+            </div>
+
+            <div class="cards-grid">
+                <div class="program-card hidden-element">
+                    <div class="card-image" style="background-image: url('images/hiit.jpg');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-fire card-icon"></i>
+                        <h3>SHRED & BURN</h3>
+                        <p>A specialized HIIT program designed to maximize calorie burn and melt fat fast.</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> 5 Days/Week</li>
+                            <li><i class="fas fa-check"></i> Meal Plan Included</li>
+                            <li><i class="fas fa-check"></i> Cardio Focus</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <div class="program-card hidden-element" style="transition-delay: 100ms;">
+                    <div class="card-image" style="background-image: url('images/deadlift.jpg');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-dumbbell card-icon"></i>
+                        <h3>HYPERTROPHY</h3>
+                        <p>Build serious mass with our science-backed lifting protocols and strength training.</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> 4 Days/Week</li>
+                            <li><i class="fas fa-check"></i> Strength Focus</li>
+                            <li><i class="fas fa-check"></i> Form Guides</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+
+                <div class="program-card hidden-element" style="transition-delay: 200ms;">
+                    <div class="card-image" style="background-image: url('images/yoga.jpg');">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <i class="fas fa-running card-icon"></i>
+                        <h3>ATHLETE FLOW</h3>
+                        <p>Improve flexibility, prevent injury, and move like a pro athlete.</p>
+                        <ul class="card-features">
+                            <li><i class="fas fa-check"></i> 3 Days/Week</li>
+                            <li><i class="fas fa-check"></i> Recovery Focus</li>
+                            <li><i class="fas fa-check"></i> Yoga Mix</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">View Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats-section">
+        <div class="container stats-container">
+            <div class="stat-item hidden-element">
+                <span class="stat-number">500+</span>
+                <span class="stat-label">Active Members</span>
+            </div>
+            <div class="stat-item hidden-element">
+                <span class="stat-number">20+</span>
+                <span class="stat-label">Expert Trainers</span>
+            </div>
+            <div class="stat-item hidden-element">
+                <span class="stat-number">50</span>
+                <span class="stat-label">Classes Weekly</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>Titan <span class="highlight">GYM</span></h2>
+                <p>Forging elite fitness since 2025.</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Titan GYM</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
